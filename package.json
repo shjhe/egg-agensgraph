@@ -1,6 +1,6 @@
 {
   "name": "egg-agensgraph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "agensgraph for egg",
   "eggPlugin": {
     "name": "agensgraph"
@@ -38,22 +38,21 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
     "agent.js",
-    "config",
-    "app"
+    "lib",
+    "app.js"
   ],
   "ci": {
     "version": "8, 10"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-agensgraph.git"
+    "url": "git+https://github.com/shjhe/egg-agensgraph.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-agensgraph#readme",
-  "author": "{{author}}",
+  "homepage": "https://github.com/shjhe/egg-agensgraph",
+  "author": "shjhe",
   "license": "MIT"
 }
