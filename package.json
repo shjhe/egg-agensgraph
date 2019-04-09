@@ -1,6 +1,6 @@
 {
-  "name": "egg-agensgraph",
-  "version": "1.0.1",
+  "name": "egg-agensgraph1",
+  "version": "1.0.2",
   "description": "agensgraph for egg",
   "eggPlugin": {
     "name": "agensgraph"
@@ -10,6 +10,7 @@
     "eggPlugin",
     "egg-plugin"
   ],
+  "main": "lib",
   "dependencies": {
     "agensgraph": "git+https://github.com/bitnine-oss/agensgraph-nodejs.git",
     "pg": "^7.9.0"
