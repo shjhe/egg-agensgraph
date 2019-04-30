@@ -1,5 +1,5 @@
 {
-  "name": "egg-agensgraph1",
+  "name": "egg-agensgraph",
   "version": "1.0.2",
   "description": "agensgraph for egg",
   "eggPlugin": {
@@ -12,7 +12,6 @@
   ],
   "main": "lib",
   "dependencies": {
-    "agensgraph": "git+https://github.com/bitnine-oss/agensgraph-nodejs.git",
     "pg": "^7.9.0"
   },
   "devDependencies": {
@@ -51,7 +50,7 @@
     "url": "git+https://github.com/shjhe/egg-agensgraph.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/shjhe/egg-agensgraph"
   },
   "homepage": "https://github.com/shjhe/egg-agensgraph",
   "author": "shjhe",
